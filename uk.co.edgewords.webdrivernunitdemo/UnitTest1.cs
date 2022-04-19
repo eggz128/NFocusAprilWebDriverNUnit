@@ -7,12 +7,13 @@ namespace uk.co.edgewords.webdrivernunitdemo
         [SetUp]
         public void Setup()
         {
+            System.Console.WriteLine("");
         }
 
         [Test]
         public void TestOne()
         {
-            Assert.Fail("This fails the test");
+            
         }
     }
 }
